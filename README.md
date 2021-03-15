@@ -21,7 +21,7 @@ python CZAJA_samply.py
 Editing the script
 ---------------
 
-Change variable Nreadprocs to increase or decrease number of cores dedicated to reading data
-Change name to read in RBC_HO or PLT data
-Change outputs list to include data you would like to read in
+- Change variable Nreadprocs to increase or decrease number of cores dedicated to reading data
+- Change name to read in RBC_HO or PLT data
+- Change outputs list to include data you would like to read in
 
