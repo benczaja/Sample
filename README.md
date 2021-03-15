@@ -5,15 +5,10 @@ Prerequisites
 -------------
 
 - h5py python package 
+- HDF5 library (Not essential but if you would like to investigate HDF5 files further)
 
 
 The example data is stored in ./data/ 
-
-Note: data is stored as a tarball and needs to be extracted 
-Example commands:
-```
-tar -xzf data.tar.gz
-```
 
 
 Running the example case
@@ -21,4 +16,12 @@ Running the example case
 
 python CZAJA_samply.py
 
+
+
+Editing the script
+---------------
+
+Change variable Nreadprocs to increase or decrease number of cores dedicated to reading data
+Change name to read in RBC_HO or PLT data
+Change outputs list to include data you would like to read in
 
