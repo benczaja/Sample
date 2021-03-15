@@ -14,7 +14,7 @@ The example data is stored in ./data/
 Running the example case
 ---------------
 
-python CZAJA_samply.py
+python CZAJA_sample.py
 
 
 
