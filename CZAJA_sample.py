@@ -134,7 +134,7 @@ if __name__ == '__main__':
 	#Location of sample data from git repo
 	datapath = os.getcwd() + "/data"
 	time =     3000000
-	Nreadprocs = 2
+	Nreadprocs = 6
 	Nrunprocs = 250
 
 	#Example use 
@@ -161,6 +161,16 @@ if __name__ == '__main__':
 	print("Fluid speed up is ",round(fluidserial/fluidmulti,2),"x faster")
 
 
+
+	##Uncomment to read in RBC data 
+
+	#rbc_outputs = ["Position","Link force","Cell Id"]
+	#rbcdata = open_hdf5_files(outputs=rbc_outputs,
+	#	datapath=datapath,
+	#	name="RBC_HO",
+	#	time = time,
+	#	Nrunprocs=Nrunprocs,
+	#	Nreadprocs=Nreadprocs)
 
 
 
